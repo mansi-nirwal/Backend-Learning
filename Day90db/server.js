@@ -5,7 +5,7 @@ const mongo = require("mongoose");
 function connectDB() {
   mongo
     .connect(
-      "mongodb+srv://manshinirwal19_db_user:mansi19@cohort2.nbnwjd6.mongodb.net/mansi",
+    // config link
     )
     .then(() => {
       console.log("Database Connected");
